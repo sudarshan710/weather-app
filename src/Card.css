@@ -1,0 +1,35 @@
+body {
+    color: rgb(147, 205, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+}
+
+.card {
+    background: rgb(57, 57, 57);
+    width: 270px;
+    height: fit-content;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 5px;
+}
+
+p {
+    margin: 1px;
+    padding: 1px;
+}
+
+.card-details {
+    padding: 0px;
+}
+
+.card-row {
+    display: flex;
+    padding-top: 5px;   
+    flex-direction: row;
+    border-bottom: 1px solid white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-row:last-child {
+    border-bottom: none;
+}
